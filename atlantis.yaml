@@ -1,0 +1,12 @@
+# atlantis.yaml
+---
+version: 2
+projects:
+- dir: services/atlantis
+  terraform_version: 0.11.8
+  workflow: default
+workflows:
+  default:
+    plan:
+      steps:
+      - init
