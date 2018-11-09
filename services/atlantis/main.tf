@@ -3,3 +3,8 @@ terraform {
 }
 
 resource "null_resource" "atlantis" {}
+
+variable "awesome" {
+  type    = "string"
+  default = "awesome"
+}
