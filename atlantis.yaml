@@ -3,7 +3,7 @@
 version: 2
 projects:
 - dir: services/atlantis
-  terraform_version: 0.11.8
+  terraform_version: 0.11.10
   workflow: default
 workflows:
   default:
