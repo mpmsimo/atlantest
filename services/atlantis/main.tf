@@ -4,7 +4,7 @@ terraform {
 
 resource "null_resource" "atlantis" {}
 
-variable "awesome" {
+variable "awesomeness" {
   type    = "string"
-  default = "awesome"
+  default = "awesomeness"
 }
